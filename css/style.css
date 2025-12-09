@@ -135,3 +135,23 @@ header {
 }
 
 /* END ECCO PLAY5 */
+
+/* SEZIONE 5 COL */
+
+.ult-play5 div > img {
+  width: 70%;
+  opacity: 0.7;
+  border: 2px transparent solid;
+}
+
+.ult-play5 div:nth-child(4) > img {
+  opacity: 1;
+  border-bottom: 2px #4b9bdc solid;
+}
+
+.ult-play5 div:hover > img {
+  opacity: 1;
+  border-bottom: 2px #4b9bdc solid;
+}
+
+/* END SEZIONE 5 COL */
