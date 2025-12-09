@@ -66,7 +66,7 @@ header {
   border: transparent;
 }
 
-.btn-primary {
+.btn-primary-custom {
   background-color: #cd3d0f;
 }
 
@@ -231,4 +231,17 @@ header {
   border: 2px black solid;
   border-radius: 50%;
 }
+
+#ps4 .row > * {
+  text-align: left;
+}
+
+#ps4 .ps4-card > h2 {
+  padding-top: 10px;
+}
+
+#ps4 .ps4-card > img {
+  padding-top: 40px;
+}
+
 /* END PS4 */
