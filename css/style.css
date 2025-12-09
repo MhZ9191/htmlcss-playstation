@@ -14,9 +14,10 @@ img {
 }
 
 body {
+  color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
-
+/* HEADER */
 header h1 {
   text-align: right;
   padding: 6px;
@@ -31,4 +32,38 @@ header {
   background-color: white;
   position: fixed;
   width: 100%;
+}
+
+/* MAIN */
+
+#returnal-section {
+  min-height: 550px;
+  background-image: url("../img/jumbo-bg.png");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+#test {
+  min-height: 100px;
+}
+
+.returnal-hero-img {
+  max-width: 300px;
+}
+
+#returnal-section .container {
+  min-height: 550px;
+  padding: 0 0 20px 20px;
+  gap: 20px;
+}
+
+.btn {
+  max-width: 150px;
+  border-radius: 25px 25px;
+  border: transparent;
+}
+
+.btn-primary {
+  background-color: #cd3d0f;
 }
