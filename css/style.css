@@ -197,3 +197,38 @@ header {
   border-radius: 20px 20px;
   overflow: hidden;
 }
+
+/* END NUOVE USCITE */
+
+/* PS4 */
+
+#ps4 h2 {
+  padding-top: 40px;
+  font-size: 32px;
+  position: relative;
+}
+
+#ps4 {
+  text-align: center;
+}
+
+#ps4 p {
+  color: #7b7b7b;
+  font-weight: bold;
+  word-spacing: 2px;
+  margin: 20px 0;
+}
+
+#ps4 span {
+  padding: 1px;
+  font-size: 8px;
+  content: "";
+  font-weight: bold;
+  position: absolute;
+  height: 14px;
+  width: 14px;
+  top: 60%;
+  border: 2px black solid;
+  border-radius: 50%;
+}
+/* END PS4 */
