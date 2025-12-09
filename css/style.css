@@ -336,6 +336,7 @@ header {
 footer {
   background-color: #00439c;
   color: white;
+  max-height: 100%;
 }
 
 .foot-logo img {
@@ -357,6 +358,14 @@ footer {
 .footer-link a {
   color: white;
   text-decoration: none;
+}
+
+.end-foot img {
+  max-width: 150px;
+}
+
+#foot .container {
+  padding-bottom: 30px;
 }
 
 /* END FOOTER */
