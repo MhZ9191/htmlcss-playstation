@@ -32,6 +32,7 @@ header {
   background-color: white;
   position: fixed;
   width: 100%;
+  z-index: 1;
 }
 
 /* MAIN */
@@ -245,3 +246,48 @@ header {
 }
 
 /* END PS4 */
+
+/* ABE */
+
+#abe {
+  min-height: 245px;
+  margin-top: 40px;
+  background-color: #bebcbb;
+}
+
+.abe-hidden {
+  display: none;
+}
+
+.ps-plus > img {
+  width: 75%;
+}
+
+.ps-plus {
+  padding: 20px 0;
+}
+
+.btn-abe {
+  max-width: 220px;
+  border: 2px transparent solid;
+  background-color: #d9dadc;
+  color: #3066e5;
+  font-weight: bold;
+}
+
+.btn-abe:hover {
+  border: 2px black solid;
+}
+@media screen and (min-width: 867px) {
+  .abe-hidden {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #abe {
+    min-height: 333px;
+  }
+}
+
+/* END ABE */
