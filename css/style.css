@@ -84,8 +84,8 @@ header {
 }
 
 .sotto-col:hover {
-  border: 1px blue solid;
-  border-style: outset;
+  outline: 1px solid blue;
+  outline-style: inset;
 }
 
 .immagine-card-6 {
