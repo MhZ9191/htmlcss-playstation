@@ -278,7 +278,7 @@ header {
 .btn-abe:hover {
   border: 2px black solid;
 }
-@media screen and (min-width: 867px) {
+@media screen and (min-width: 768px) {
   .abe-hidden {
     display: block;
   }
@@ -291,3 +291,23 @@ header {
 }
 
 /* END ABE */
+
+/* SCONTI */
+
+#sconti {
+  padding-top: 40px;
+  text-align: center;
+}
+
+#sconti h2 {
+  font-size: 32px;
+}
+
+#sconti p {
+  color: #7b7b7b;
+  font-weight: bold;
+  word-spacing: 2px;
+  margin: 20px 0;
+}
+
+/* END SCONTI */
