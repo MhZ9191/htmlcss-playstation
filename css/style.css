@@ -14,7 +14,7 @@ img {
 }
 
 body {
-  color: white;
+  background-color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
 /* HEADER */
@@ -36,7 +36,9 @@ header {
 
 /* MAIN */
 
+/* RETURNAL BANNER */
 #returnal-section {
+  color: white;
   min-height: 550px;
   background-image: url("../img/jumbo-bg.png");
   background-size: cover;
@@ -67,3 +69,28 @@ header {
 .btn-primary {
   background-color: #cd3d0f;
 }
+
+/* RETURNAL BANNER END */
+
+/* CARD 6 */
+
+#card-6 {
+  margin-top: 20px;
+}
+
+.sotto-col {
+  border-radius: 15px 15px;
+  overflow: hidden;
+}
+
+.sotto-col:hover {
+  border: 1px blue solid;
+  border-style: outset;
+}
+
+.immagine-card-6 {
+  border: 3px transparent solid;
+  border-radius: 15px 15px;
+}
+
+/* END CARD 6 */
