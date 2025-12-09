@@ -168,3 +168,32 @@ header {
   background-position: center top;
   background-repeat: no-repeat;
 }
+
+/* END IT TAKES 2 */
+
+/* NUOVE USCITE */
+
+#nuove-uscite {
+  background-color: #1f1f1f;
+  color: white;
+  padding-bottom: 20px;
+}
+
+#nuove-uscite h2 {
+  padding: 20px 0 10px 0;
+  font-size: 32px;
+}
+
+#nuove-uscite p {
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.class-tony sup {
+  font-size: 8px;
+}
+
+.nuove-div img {
+  border-radius: 20px 20px;
+  overflow: hidden;
+}
