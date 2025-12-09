@@ -138,6 +138,10 @@ header {
 
 /* SEZIONE 5 COL */
 
+.ult-play5 {
+  margin-bottom: 20px;
+}
+
 .ult-play5 div > img {
   width: 70%;
   opacity: 0.7;
@@ -155,3 +159,12 @@ header {
 }
 
 /* END SEZIONE 5 COL */
+
+/* IT TAKES 2 */
+#ittakes-section {
+  color: white;
+  background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
