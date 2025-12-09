@@ -321,6 +321,7 @@ header {
 #social {
   padding-top: 40px;
   text-align: center;
+  margin-bottom: 40px;
 }
 
 #social h2 {
@@ -329,6 +330,36 @@ header {
 }
 
 /* END SOCIAL */
+
+/* FOOTER */
+
+footer {
+  background-color: #00439c;
+  color: white;
+}
+
+.foot-logo img {
+  max-width: 90px;
+  padding-top: 30px;
+}
+
+.foot-logo p {
+  max-width: 100%;
+  font-size: 12px;
+}
+
+.footer-link {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+}
+
+.footer-link a {
+  color: white;
+  text-decoration: none;
+}
+
+/* END FOOTER */
 
 @media screen and (min-width: 768px) {
   .abe-hidden {
@@ -347,5 +378,9 @@ header {
 @media screen and (min-width: 992px) {
   #abe {
     min-height: 333px;
+  }
+
+  .footer-link {
+    padding-top: 30px;
   }
 }
