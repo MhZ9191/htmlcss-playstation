@@ -75,7 +75,7 @@ header {
 /* CARD 6 */
 
 #card-6 {
-  margin-top: 20px;
+  margin: 20px 0;
 }
 
 .sotto-col {
@@ -94,3 +94,44 @@ header {
 }
 
 /* END CARD 6 */
+
+/* ECCO PLAY5 */
+
+#ecco-play5 .top-play5 {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.top-play5 > p:first-child {
+  line-height: 10px;
+  margin-bottom: 1px;
+  color: #0775cf;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#ecco-play5 h2 {
+  font-size: 32px;
+}
+
+.top-play5 > p:last-child {
+  color: #7b7b7b;
+  font-weight: bold;
+  margin-top: 20px;
+  word-spacing: 2px;
+}
+
+.btn-play5 {
+  max-width: 200px;
+  background-color: #2d64e6;
+  padding: 5px 12px;
+}
+
+.console-play5 p {
+  color: #7b7b7b;
+  font-weight: bold;
+  word-spacing: 2px;
+  margin: 20px 0;
+}
+
+/* END ECCO PLAY5 */
