@@ -6,6 +6,7 @@
 
 img {
   width: 100%;
+  height: auto;
 }
 
 .debug {
@@ -288,6 +289,10 @@ header {
   text-align: center;
 }
 
+#sconti .container {
+  overflow: hidden;
+}
+
 #sconti h2 {
   font-size: 32px;
 }
@@ -311,9 +316,31 @@ header {
 
 /* END NOW */
 
+/* SOCIAL */
+
+#social {
+  padding-top: 40px;
+  text-align: center;
+}
+
+#social h2 {
+  font-size: 32px;
+  padding-bottom: 40px;
+}
+
+/* END SOCIAL */
+
 @media screen and (min-width: 768px) {
   .abe-hidden {
     display: block;
+  }
+  .social-test {
+    display: flex;
+    justify-content: center;
+  }
+
+  .social-col {
+    max-width: 150px;
   }
 }
 
