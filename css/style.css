@@ -414,10 +414,6 @@ footer {
 }
 
 @media screen and (min-width: 992px) {
-  #abe {
-    min-height: 333px;
-  }
-
   .footer-link {
     padding-top: 30px;
   }
