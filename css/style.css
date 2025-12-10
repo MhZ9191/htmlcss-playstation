@@ -349,15 +349,13 @@ footer {
   font-size: 12px;
 }
 
-.footer-link {
-  display: flex;
-  flex-direction: column;
-  padding-left: 30px;
-}
-
 .footer-link a {
   color: white;
   text-decoration: none;
+}
+
+.footer-link li {
+  list-style-type: none;
 }
 
 .end-foot img {
