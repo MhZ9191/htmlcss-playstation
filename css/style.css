@@ -9,7 +9,6 @@ img {
 }
 
 .debug {
-  min-height: 60px;
   border: 2px red solid;
 }
 
@@ -34,6 +33,23 @@ header {
   width: 100%;
   z-index: 1;
 }
+
+/* NAV */
+
+li .dropdown-toggle {
+  font-weight: bold;
+}
+
+.right-menu li {
+  list-style-type: none;
+}
+
+.btn-outline-custom {
+  background-color: #363636;
+  color: white;
+}
+
+/* END NAV */
 
 /* MAIN */
 
