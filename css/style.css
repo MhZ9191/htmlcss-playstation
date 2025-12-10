@@ -49,6 +49,10 @@ li .dropdown-toggle {
   color: white;
 }
 
+.btn-outline-custom:hover {
+  outline: 2px black solid;
+}
+
 /* END NAV */
 
 /* MAIN */
@@ -87,6 +91,10 @@ li .dropdown-toggle {
   background-color: #cd3d0f;
 }
 
+.btn-primary-custom:hover {
+  outline: 2px #cd3d0f solid;
+}
+
 /* RETURNAL BANNER END */
 
 /* CARD 6 */
@@ -114,9 +122,12 @@ li .dropdown-toggle {
 
 /* ECCO PLAY5 */
 
+#ecco-play5 .container {
+  padding: 40px 0;
+}
+
 #ecco-play5 .top-play5 {
   text-align: center;
-  padding-top: 40px;
 }
 
 .top-play5 > p:first-child {
@@ -155,10 +166,6 @@ li .dropdown-toggle {
 
 /* SEZIONE 5 COL */
 
-.ult-play5 {
-  margin-bottom: 20px;
-}
-
 .ult-play5 div > img {
   width: 70%;
   opacity: 0.7;
@@ -193,11 +200,10 @@ li .dropdown-toggle {
 #nuove-uscite {
   background-color: #1f1f1f;
   color: white;
-  padding-bottom: 20px;
+  padding: 40px 0;
 }
 
 #nuove-uscite h2 {
-  padding: 20px 0 10px 0;
   font-size: 32px;
 }
 
@@ -220,12 +226,12 @@ li .dropdown-toggle {
 /* PS4 */
 
 #ps4 h2 {
-  padding-top: 40px;
   font-size: 32px;
   position: relative;
 }
 
 #ps4 {
+  padding: 40px 0;
   text-align: center;
 }
 
@@ -237,14 +243,13 @@ li .dropdown-toggle {
 }
 
 #ps4 span {
-  padding: 1px;
-  font-size: 8px;
+  font-size: 9px;
   content: "";
-  font-weight: bold;
+  font-weight: 800;
   position: absolute;
   height: 14px;
   width: 14px;
-  top: 60%;
+  top: 20%;
   border: 2px black solid;
   border-radius: 50%;
 }
@@ -300,7 +305,7 @@ li .dropdown-toggle {
 /* SCONTI */
 
 #sconti {
-  padding-top: 40px;
+  padding: 40px 0;
   text-align: center;
 }
 
@@ -324,9 +329,20 @@ li .dropdown-toggle {
 /* NOW */
 
 #now {
-  margin-top: 40px;
   background-color: #161c3b;
   color: white;
+}
+
+.btn-now {
+  max-width: 220px;
+  border: 2px transparent solid;
+  background-color: #f5f5f5;
+  color: black;
+  font-weight: bold;
+}
+
+.btn-now:hover {
+  outline: 2px #f5f5f5 solid;
 }
 
 /* END NOW */
@@ -334,7 +350,7 @@ li .dropdown-toggle {
 /* SOCIAL */
 
 #social {
-  padding-top: 40px;
+  padding: 40px 0;
   text-align: center;
   margin-bottom: 40px;
 }
@@ -377,8 +393,8 @@ footer {
   max-width: 150px;
 }
 
-#foot .container {
-  padding-bottom: 30px;
+#foot {
+  padding: 40px 0;
 }
 
 /* END FOOTER */
